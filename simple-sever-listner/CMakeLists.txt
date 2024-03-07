@@ -17,7 +17,7 @@ set(LOGGER_INCLUDE_DIR
     ${CMAKE_CURRENT_SOURCE_DIR}/../SimpleLogger/
 )
 
-add_subdirectory(/Users/janas/work/GitHub/cpp-mini-projects/SimpleLogger loggerbin)
+
 
 add_executable(Server test.cpp ${SRC})
 include_directories(${THREAD_POOL_INCLUDE_DIR} ${LOGGER_INCLUDE_DIR})
