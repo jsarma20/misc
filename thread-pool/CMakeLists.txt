@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(Example example.cpp)
 
-set(Catch2_DIR /Users/janas/work/lib-cpp/Catch2/lib/cmake/Catch2)
 find_package(Catch2 3 REQUIRED)
 
 add_executable(Test test.cpp)
